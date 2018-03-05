@@ -1,0 +1,47 @@
+p {
+    margin: 0;
+}
+
+#map-view-main {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 100vh;
+    grid-gap: 0em;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#map{
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+main,
+aside {
+
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+ }
+
+ aside{
+   background: #484D53;
+   color:#ffffff;
+   padding-top: 71px;
+   padding-left: 15px;
+ }
+ main{
+   background: #000;
+ }
+
+ .map-control-inputs {
+     display: grid;
+     grid-template-columns: 75% 25%;
+     grid-template-rows: 2vw 2vw 2vw;
+     grid-gap: 0em;
+ }
+
+ .checkbox {
+     vertical-align: middle;
+ }
